@@ -8,7 +8,7 @@ export const options = {
       apm: [],
     },
   },
-  // adding comments to the codess
+  // adding comments to the codessss
   thresholds: {
     http_req_duration: ['p(90)<40000'], // 90% of requests must complete below 40s
     http_req_failed : ['rate<0.03'],   // the error rate must be lower than 3%
