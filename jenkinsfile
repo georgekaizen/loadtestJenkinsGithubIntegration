@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Selfcare Portal Performance Testing') {
+        stage('Selfcare Portal Performance Test') {
             steps {
                 echo 'Installing k6'
                 sh 'sudo chmod +x setup_k6.sh'
